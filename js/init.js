@@ -22,6 +22,7 @@
 	// Remove "loading" class once the page has fully loaded.
 		window.onload = function() {
 			document.body.className = '';
+			document.getElementById("main").style.display = "block";
 		}
 
 	// Prevent scrolling on touch.
