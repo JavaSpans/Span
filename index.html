@@ -25,8 +25,6 @@
 		<script src="jquery.textillate.js"></script>
 		<script type="text/javascript">
 			$(function() {
-				// 隐藏body document.getElementsByTagName("body")[0].style.display = "block";
-				$("body").show();
 				$('.text1').textillate({ in: { effect: 'flipInX' } });
 				$('.text3').textillate({
 					initialDelay: 9000,
@@ -60,6 +58,12 @@
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
 		<script src="js/skel.min.js"></script>
 		<script src="js/init.js"></script>
+		<script>
+			$(function() {
+				// 隐藏body document.getElementsByTagName("body")[0].style.display = "block";
+				$("body").show();
+			})
+		</script>
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
