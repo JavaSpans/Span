@@ -24,31 +24,6 @@
       </tags>
   </entry>
   <entry>
-    <title>html 学习目录(连载中)</title>
-    <url>/blog/posts/c258b0a1.html</url>
-    <content><![CDATA[<h1 id="今天开始正式写前端笔记"><a href="#今天开始正式写前端笔记" class="headerlink" title="今天开始正式写前端笔记"></a>今天开始正式写前端笔记</h1><blockquote>
-<h2 id="为什么要写前端笔记？"><a href="#为什么要写前端笔记？" class="headerlink" title="为什么要写前端笔记？"></a>为什么要写前端笔记？</h2></blockquote>
-<blockquote>
-<p>作为一个学习技术和分享笔记的小博客</p>
-<p>本着学习和分享前端菜鸟笔记开始有目录了。<del>在这里我要立个Flag，从入门到入坟一定要坚持写完</del>。顺便巩固一下自己的基础（就是因为鄙人太菜了，哎~），生存不易,还需努力！！！</p>
-</blockquote>
-<h3 id="最主要的是我觉的基础真的真的真的是超级重要，只有你基础牢，才可以把后面的框架学好，理解清楚！！！"><a href="#最主要的是我觉的基础真的真的真的是超级重要，只有你基础牢，才可以把后面的框架学好，理解清楚！！！" class="headerlink" title="最主要的是我觉的基础真的真的真的是超级重要，只有你基础牢，才可以把后面的框架学好，理解清楚！！！"></a>最主要的是我觉的基础真的真的真的是超级重要，只有你基础牢，才可以把后面的框架学好，理解清楚！！！</h3><hr>
-<h4 id="前端电脑笔记将会分为以下几个阶段"><a href="#前端电脑笔记将会分为以下几个阶段" class="headerlink" title="前端电脑笔记将会分为以下几个阶段"></a>前端电脑笔记将会分为以下几个阶段</h4><h1 id="（目录）"><a href="#（目录）" class="headerlink" title="（目录）"></a><strong>（目录）</strong></h1><h2 id="一、html入门"><a href="#一、html入门" class="headerlink" title="一、html入门"></a>一、html入门</h2><ul>
-<li><h5 id="Java快速入门"><a href="#Java快速入门" class="headerlink" title="Java快速入门"></a>Java快速入门</h5><ol>
-<li><h5 id="html简介"><a href="#html简介" class="headerlink" title="html简介"></a><a href="https://baike.baidu.com/item/HTML/97049?fr=aladdin">html简介</a></h5><h5 id=""><a href="#" class="headerlink" title=""></a></h5></li>
-</ol>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>html</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>html</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Debug的使用</title>
     <url>/blog/posts/3f0598a9.html</url>
     <content><![CDATA[<h3 id="Debug的使用-："><a href="#Debug的使用-：" class="headerlink" title="Debug的使用 ："></a>Debug的使用 ：</h3><h4 id="在IDEa或者在eclipse中"><a href="#在IDEa或者在eclipse中" class="headerlink" title="在IDEa或者在eclipse中,"></a>在IDEa或者在eclipse中,</h4><h4 id="1-先点击要检查的代码前面，出现红点或蓝点表示标记成功"><a href="#1-先点击要检查的代码前面，出现红点或蓝点表示标记成功" class="headerlink" title="1.先点击要检查的代码前面，出现红点或蓝点表示标记成功,"></a>1.先点击要检查的代码前面，出现红点或蓝点表示标记成功,</h4><h4 id="2-然后找到选项栏运行图标旁边的-”Debug“"><a href="#2-然后找到选项栏运行图标旁边的-”Debug“" class="headerlink" title="2.然后找到选项栏运行图标旁边的 ”Debug“"></a>2.然后找到选项栏运行图标旁边的 ”Debug“</h4><h4 id="3-点击之后下方窗口会出现控制栏-就可以调试或者一步一步点击下一步看代码运行状态和代码执行内容"><a href="#3-点击之后下方窗口会出现控制栏-就可以调试或者一步一步点击下一步看代码运行状态和代码执行内容" class="headerlink" title="3.点击之后下方窗口会出现控制栏,就可以调试或者一步一步点击下一步看代码运行状态和代码执行内容"></a>3.点击之后下方窗口会出现控制栏,就可以调试或者一步一步点击下一步看代码运行状态和代码执行内容</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//打印五行三角形  5行</span></span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= <span class="number">5</span>; i++) &#123;</span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> j = <span class="number">5</span>; j &gt;= i; j--) &#123;</span><br><span class="line">                System.out.print(<span class="string">&quot; &quot;</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> j = <span class="number">1</span>; j &lt;= i;j++)&#123;</span><br><span class="line">                System.out.print(<span class="string">&quot;*&quot;</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> j =<span class="number">1</span> ; j&lt;i;j++)&#123;</span><br><span class="line">                System.out.print(<span class="string">&quot;*&quot;</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            System.out.println();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
@@ -79,6 +54,45 @@
       </tags>
   </entry>
   <entry>
+    <title>html 学习目录(连载中)</title>
+    <url>/blog/posts/c258b0a1.html</url>
+    <content><![CDATA[<h1 id="今天开始正式写前端笔记"><a href="#今天开始正式写前端笔记" class="headerlink" title="今天开始正式写前端笔记"></a>今天开始正式写前端笔记</h1><blockquote>
+<h2 id="为什么要写前端笔记？"><a href="#为什么要写前端笔记？" class="headerlink" title="为什么要写前端笔记？"></a>为什么要写前端笔记？</h2></blockquote>
+<blockquote>
+<p>作为一个学习技术和分享笔记的小博客</p>
+<p>本着学习和分享前端菜鸟笔记开始有目录了。<del>在这里我要立个Flag，从入门到入坟一定要坚持写完</del>。顺便巩固一下自己的基础（就是因为鄙人太菜了，哎~），生存不易,还需努力！！！</p>
+</blockquote>
+<h3 id="最主要的是我觉的基础真的真的真的是超级重要，只有你基础牢，才可以把后面的框架学好，理解清楚！！！"><a href="#最主要的是我觉的基础真的真的真的是超级重要，只有你基础牢，才可以把后面的框架学好，理解清楚！！！" class="headerlink" title="最主要的是我觉的基础真的真的真的是超级重要，只有你基础牢，才可以把后面的框架学好，理解清楚！！！"></a>最主要的是我觉的基础真的真的真的是超级重要，只有你基础牢，才可以把后面的框架学好，理解清楚！！！</h3><hr>
+<h4 id="前端电脑笔记将会分为以下几个阶段"><a href="#前端电脑笔记将会分为以下几个阶段" class="headerlink" title="前端电脑笔记将会分为以下几个阶段"></a>前端电脑笔记将会分为以下几个阶段</h4><h1 id="（目录）"><a href="#（目录）" class="headerlink" title="（目录）"></a><strong>（目录）</strong></h1><h2 id="一、html入门"><a href="#一、html入门" class="headerlink" title="一、html入门"></a>一、html入门</h2><ul>
+<li><h5 id="Java快速入门"><a href="#Java快速入门" class="headerlink" title="Java快速入门"></a>Java快速入门</h5><ol>
+<li><h5 id="html简介"><a href="#html简介" class="headerlink" title="html简介"></a><a href="https://baike.baidu.com/item/HTML/97049?fr=aladdin">html简介</a></h5><h5 id=""><a href="#" class="headerlink" title=""></a></h5></li>
+</ol>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>html</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>html</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Mysql</title>
+    <url>/blog/posts/54e1373e.html</url>
+    <content><![CDATA[<h3 id="Mysql"><a href="#Mysql" class="headerlink" title="Mysql"></a>Mysql</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">-- 查询所有住在南昌的女学生</span><br><span class="line">SELECT * from yd_student where sex&#x3D;&#39;女&#39; and  address &#x3D; &#39;南昌&#39;;</span><br><span class="line">-- 查询所有男生的信息</span><br><span class="line">SELECT * FROM yd_student WHERE sex&#x3D;&#39;男&#39;;</span><br><span class="line">-- 查询所有女生的姓名，学号，地址</span><br><span class="line">SELECT name,sno,address FROM yd_student WHERE sex&#x3D;&#39;女&#39;;</span><br><span class="line">-- 把南昌的女的学生删除</span><br><span class="line">DELETE from yd_student where sex&#x3D;&#39;女&#39; and  address&#x3D;&#39;南昌&#39;;</span><br><span class="line"></span><br><span class="line">-- 查询yd_user 按年龄排序</span><br><span class="line">SELECT * FROM yd_user ORDER BY age DESC;  -- 降序(大到小)</span><br><span class="line">SELECT * FROM yd_user ORDER BY age ASC;   -- 升序</span><br><span class="line"></span><br><span class="line">-- 分组查询</span><br><span class="line">SELECT * from yd_user GROUP BY sex,id;-- 分组查询</span><br><span class="line">-- 分组查询所有男生女生各有多少人</span><br><span class="line">SELECT sex,COUNT(sex) FROM yd_user GROUP BY sex;</span><br><span class="line">SELECT COUNT(*) from yd_user; -- 统计查询</span><br><span class="line">-- 分组查询，并且设置分组条件</span><br><span class="line">-- 1.查询按照性别分组后数量大于2的那个性别，输出性别及数量</span><br><span class="line">SELECT sex,COUNT(sex) from yd_user GROUP BY sex;</span><br><span class="line">HAVING COUNT(sex)&gt;2;</span><br><span class="line">-- 2.查询按照性别分组后年龄大于两岁，数量大于2的那个性别，输出性别及数量</span><br><span class="line">SELECT sex,COUNT(sex) from yd_user where age&gt;2 GROUP BY sex;</span><br><span class="line">HAVING COUNT(sex)&gt;2;</span><br><span class="line"></span><br><span class="line">-- 限制查询数量 limit</span><br><span class="line">-- 1.查前面两个人数据</span><br><span class="line">SELECT * from yd_user LIMIT 2;</span><br><span class="line">SELECT * from yd_user LIMIT 0,2;</span><br><span class="line">-- 2.查询从第二开始查询两条数据  前面的数字代表从第几条开始，后面的数字代表查询几条</span><br><span class="line">SELECT * from yd_user LIMIT 2,2;</span><br><span class="line">-- 3.查询从第二开始查询两条数据中的男的</span><br><span class="line">SELECT * from yd_user where sex&#x3D;&#39;男&#39; LIMIT 2,2;</span><br><span class="line">-- 4查询从第二开始查询两条数据中的男的并按照年龄排序</span><br><span class="line">SELECT * from yd_user where sex&#x3D;&#39;男&#39; ORDER BY age DESC LIMIT 0,3;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">-- 去除重复</span><br><span class="line">SELECT address from yd_student; -- 去除来自重复的地址</span><br><span class="line">SELECT DISTINCT address from yd_student; -- 地址</span><br><span class="line">SELECT DISTINCT name from yd_student;-- 名字</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">-- 别名</span><br><span class="line">SELECT s.sex as &#39;性别&#39;,COUNT(*) as &#39;总人数&#39; from yd_student as s GROUP BY sex;-- 查询男生女生个有多少人数</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">SELECT name as &#39;姓名&#39;,sex as&#39;性别&#39;,address as &#39;地址&#39; from yd_student;</span><br><span class="line"></span><br><span class="line">#查询工资&gt;12000的员工信息</span><br><span class="line">SELECT * from employees where salary&gt;12000;</span><br><span class="line">#查询部门编号不等于90的员工名和部门编号</span><br><span class="line">SELECT first_name,department_id from </span><br><span class="line">employees where department_id !&#x3D;90;</span><br><span class="line">#查询工资在10000到20000之间的员工名、工资以及奖金</span><br><span class="line">SELECT first_name,salary,commission_pct from </span><br><span class="line">employees where salary&gt;10000 and salary&lt;20000;</span><br><span class="line"></span><br><span class="line">SELECT first_name,salary,commission_pct from </span><br><span class="line">employees where salary BETWEEN 10000 and 20000;</span><br><span class="line">#查询部门编号不是在90到100之间，或者工资高于15000的员工信息</span><br><span class="line">SELECT * from employees where </span><br><span class="line">(department_id&lt;&#x3D;90 and department_id&gt;&#x3D;100) or salary&gt;15000;</span><br><span class="line">#查询员工last_name中包含字符a的员工信息</span><br><span class="line">SELECT * from employees where last_name like &quot;%a%&quot;;</span><br><span class="line">#查询员工last_name的第二个字符为a，第五个字符为e的员工信息</span><br><span class="line">SELECT * from employees where last_name like &quot;_a__e%&quot;;</span><br><span class="line">#查询员工last_name的第二个字符为_的员工信息</span><br><span class="line">SELECT * from employees where last_name like &quot;_\_%&quot;;</span><br><span class="line">#查询工资在10000到20000之间的员工名、工资以及奖金</span><br><span class="line">SELECT first_name,salary,commission_pct from </span><br><span class="line">employees where salary&gt;10000 and salary&lt;20000;</span><br><span class="line">#查询员工的工种编号为 IT_PROG，AD_VP，AD_PRES中的一个的员工信息</span><br><span class="line">SELECT * from employees where </span><br><span class="line">job_id in(&#39;IT_PROG&#39;,&#39;AD_VP&#39;,&#39;AD_PRES&#39;);</span><br><span class="line"></span><br><span class="line">#查询没有奖金的员工信息</span><br><span class="line">select * from employees where commission_pct is null;</span><br><span class="line">#查询有奖金的员工信息</span><br><span class="line">select * from employees where commission_pct is not null; </span><br><span class="line">#查询员工号为176的员工的姓名、部门号和年薪</span><br><span class="line">select last_name,first_name,job_id from employees where employee_id &#x3D; 176;</span><br><span class="line"></span><br><span class="line">#查询年龄最大的那个人</span><br><span class="line"></span><br><span class="line">Select max(age) from yd_user ;</span><br><span class="line"></span><br><span class="line">#查询年纪最小的那个人</span><br><span class="line"></span><br><span class="line">select min(min) from yd_user;</span><br><span class="line"></span><br><span class="line">#统计所有岁数的和</span><br><span class="line">select SUM(age) from yd_user;</span><br><span class="line"></span><br><span class="line">#查询数据库yd_users age 内为 2，3，30</span><br><span class="line">SELECT * FROM yd_users WHERE age in(2,3,30);</span><br><span class="line">#查询数据库yd_users age 内不为 2，3，30</span><br><span class="line">SELECT * FROM yd_users WHERE age  NOT	in(2,3,30);</span><br><span class="line">#查询数据库yd_users age 内字符串为空</span><br><span class="line">SELECT * FROM yd_users WHERE age &#x3D; &#39; &#39;;</span><br><span class="line">#查询数据库yd_users age 内为null的值</span><br><span class="line">SELECT *FROM yd_users WHERE age is NULL;</span><br><span class="line">#查询数据库yd_users age 内为不为null的值</span><br><span class="line">SELECT * FROM yd_users WHERE age is not null;</span><br><span class="line">#查询性别不是男的人</span><br><span class="line">SELECT * FROM yd_users WHERE sex !&#x3D; &#39;男&#39;;</span><br><span class="line">SELECT * FROM yd_users WHERE sex &lt;&gt; &#39;男&#39;;</span><br><span class="line">#模糊查询</span><br><span class="line">#查询名字是包含e的人</span><br><span class="line">SELECT * FROM yd_study WHERE name LIKE &#39;%e%&#39;;</span><br><span class="line">#查询名字是J开头的人</span><br><span class="line">SELECT * FROM yd_study WHERE name like &#39;j%&#39;;</span><br><span class="line">#查询身份证号减去年龄等于360109的人</span><br><span class="line">SELECT * FROM yd_study WHERE idcard-age &#x3D; 360109;</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>Mysql</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>Mysql</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>方 法</title>
     <url>/blog/posts/69244af4.html</url>
     <content><![CDATA[<h3 id="什么是方法"><a href="#什么是方法" class="headerlink" title="什么是方法"></a>什么是方法</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//系统的类.对象.方法</span></span><br><span class="line">System.out.println();</span><br></pre></td></tr></table></figure>
@@ -98,20 +112,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Mysql</title>
-    <url>/blog/posts/54e1373e.html</url>
-    <content><![CDATA[<h3 id="Mysql"><a href="#Mysql" class="headerlink" title="Mysql"></a>Mysql</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">-- 查询所有住在南昌的女学生</span><br><span class="line">SELECT * from yd_student where sex&#x3D;&#39;女&#39; and  address &#x3D; &#39;南昌&#39;;</span><br><span class="line">-- 查询所有男生的信息</span><br><span class="line">SELECT * FROM yd_student WHERE sex&#x3D;&#39;男&#39;;</span><br><span class="line">-- 查询所有女生的姓名，学号，地址</span><br><span class="line">SELECT name,sno,address FROM yd_student WHERE sex&#x3D;&#39;女&#39;;</span><br><span class="line">-- 把南昌的女的学生删除</span><br><span class="line">DELETE from yd_student where sex&#x3D;&#39;女&#39; and  address&#x3D;&#39;南昌&#39;;</span><br><span class="line"></span><br><span class="line">-- 查询yd_user 按年龄排序</span><br><span class="line">SELECT * FROM yd_user ORDER BY age DESC;  -- 降序(大到小)</span><br><span class="line">SELECT * FROM yd_user ORDER BY age ASC;   -- 升序</span><br><span class="line"></span><br><span class="line">-- 分组查询</span><br><span class="line">SELECT * from yd_user GROUP BY sex,id;-- 分组查询</span><br><span class="line">-- 分组查询所有男生女生各有多少人</span><br><span class="line">SELECT sex,COUNT(sex) FROM yd_user GROUP BY sex;</span><br><span class="line">SELECT COUNT(*) from yd_user; -- 统计查询</span><br><span class="line">-- 分组查询，并且设置分组条件</span><br><span class="line">-- 1.查询按照性别分组后数量大于2的那个性别，输出性别及数量</span><br><span class="line">SELECT sex,COUNT(sex) from yd_user GROUP BY sex;</span><br><span class="line">HAVING COUNT(sex)&gt;2;</span><br><span class="line">-- 2.查询按照性别分组后年龄大于两岁，数量大于2的那个性别，输出性别及数量</span><br><span class="line">SELECT sex,COUNT(sex) from yd_user where age&gt;2 GROUP BY sex;</span><br><span class="line">HAVING COUNT(sex)&gt;2;</span><br><span class="line"></span><br><span class="line">-- 限制查询数量 limit</span><br><span class="line">-- 1.查前面两个人数据</span><br><span class="line">SELECT * from yd_user LIMIT 2;</span><br><span class="line">SELECT * from yd_user LIMIT 0,2;</span><br><span class="line">-- 2.查询从第二开始查询两条数据  前面的数字代表从第几条开始，后面的数字代表查询几条</span><br><span class="line">SELECT * from yd_user LIMIT 2,2;</span><br><span class="line">-- 3.查询从第二开始查询两条数据中的男的</span><br><span class="line">SELECT * from yd_user where sex&#x3D;&#39;男&#39; LIMIT 2,2;</span><br><span class="line">-- 4查询从第二开始查询两条数据中的男的并按照年龄排序</span><br><span class="line">SELECT * from yd_user where sex&#x3D;&#39;男&#39; ORDER BY age DESC LIMIT 0,3;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">-- 去除重复</span><br><span class="line">SELECT address from yd_student; -- 去除来自重复的地址</span><br><span class="line">SELECT DISTINCT address from yd_student; -- 地址</span><br><span class="line">SELECT DISTINCT name from yd_student;-- 名字</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">-- 别名</span><br><span class="line">SELECT s.sex as &#39;性别&#39;,COUNT(*) as &#39;总人数&#39; from yd_student as s GROUP BY sex;-- 查询男生女生个有多少人数</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">SELECT name as &#39;姓名&#39;,sex as&#39;性别&#39;,address as &#39;地址&#39; from yd_student;</span><br><span class="line"></span><br><span class="line">#查询工资&gt;12000的员工信息</span><br><span class="line">SELECT * from employees where salary&gt;12000;</span><br><span class="line">#查询部门编号不等于90的员工名和部门编号</span><br><span class="line">SELECT first_name,department_id from </span><br><span class="line">employees where department_id !&#x3D;90;</span><br><span class="line">#查询工资在10000到20000之间的员工名、工资以及奖金</span><br><span class="line">SELECT first_name,salary,commission_pct from </span><br><span class="line">employees where salary&gt;10000 and salary&lt;20000;</span><br><span class="line"></span><br><span class="line">SELECT first_name,salary,commission_pct from </span><br><span class="line">employees where salary BETWEEN 10000 and 20000;</span><br><span class="line">#查询部门编号不是在90到100之间，或者工资高于15000的员工信息</span><br><span class="line">SELECT * from employees where </span><br><span class="line">(department_id&lt;&#x3D;90 and department_id&gt;&#x3D;100) or salary&gt;15000;</span><br><span class="line">#查询员工last_name中包含字符a的员工信息</span><br><span class="line">SELECT * from employees where last_name like &quot;%a%&quot;;</span><br><span class="line">#查询员工last_name的第二个字符为a，第五个字符为e的员工信息</span><br><span class="line">SELECT * from employees where last_name like &quot;_a__e%&quot;;</span><br><span class="line">#查询员工last_name的第二个字符为_的员工信息</span><br><span class="line">SELECT * from employees where last_name like &quot;_\_%&quot;;</span><br><span class="line">#查询工资在10000到20000之间的员工名、工资以及奖金</span><br><span class="line">SELECT first_name,salary,commission_pct from </span><br><span class="line">employees where salary&gt;10000 and salary&lt;20000;</span><br><span class="line">#查询员工的工种编号为 IT_PROG，AD_VP，AD_PRES中的一个的员工信息</span><br><span class="line">SELECT * from employees where </span><br><span class="line">job_id in(&#39;IT_PROG&#39;,&#39;AD_VP&#39;,&#39;AD_PRES&#39;);</span><br><span class="line"></span><br><span class="line">#查询没有奖金的员工信息</span><br><span class="line">select * from employees where commission_pct is null;</span><br><span class="line">#查询有奖金的员工信息</span><br><span class="line">select * from employees where commission_pct is not null; </span><br><span class="line">#查询员工号为176的员工的姓名、部门号和年薪</span><br><span class="line">select last_name,first_name,job_id from employees where employee_id &#x3D; 176;</span><br><span class="line"></span><br><span class="line">#查询年龄最大的那个人</span><br><span class="line"></span><br><span class="line">Select max(age) from yd_user ;</span><br><span class="line"></span><br><span class="line">#查询年纪最小的那个人</span><br><span class="line"></span><br><span class="line">select min(min) from yd_user;</span><br><span class="line"></span><br><span class="line">#统计所有岁数的和</span><br><span class="line">select SUM(age) from yd_user;</span><br><span class="line"></span><br><span class="line">#查询数据库yd_users age 内为 2，3，30</span><br><span class="line">SELECT * FROM yd_users WHERE age in(2,3,30);</span><br><span class="line">#查询数据库yd_users age 内不为 2，3，30</span><br><span class="line">SELECT * FROM yd_users WHERE age  NOT	in(2,3,30);</span><br><span class="line">#查询数据库yd_users age 内字符串为空</span><br><span class="line">SELECT * FROM yd_users WHERE age &#x3D; &#39; &#39;;</span><br><span class="line">#查询数据库yd_users age 内为null的值</span><br><span class="line">SELECT *FROM yd_users WHERE age is NULL;</span><br><span class="line">#查询数据库yd_users age 内为不为null的值</span><br><span class="line">SELECT * FROM yd_users WHERE age is not null;</span><br><span class="line">#查询性别不是男的人</span><br><span class="line">SELECT * FROM yd_users WHERE sex !&#x3D; &#39;男&#39;;</span><br><span class="line">SELECT * FROM yd_users WHERE sex &lt;&gt; &#39;男&#39;;</span><br><span class="line">#模糊查询</span><br><span class="line">#查询名字是包含e的人</span><br><span class="line">SELECT * FROM yd_study WHERE name LIKE &#39;%e%&#39;;</span><br><span class="line">#查询名字是J开头的人</span><br><span class="line">SELECT * FROM yd_study WHERE name like &#39;j%&#39;;</span><br><span class="line">#查询身份证号减去年龄等于360109的人</span><br><span class="line">SELECT * FROM yd_study WHERE idcard-age &#x3D; 360109;</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>Mysql</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>Mysql</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>mysql 学习目录(连载中)</title>
     <url>/blog/posts/6e48d4f4.html</url>
     <content><![CDATA[]]></content>
@@ -121,22 +121,6 @@
       <tags>
         <tag>笔记</tag>
         <tag>Mysql</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Scanner对象</title>
-    <url>/blog/posts/e2abe5ec.html</url>
-    <content><![CDATA[<h3 id="Scanner对象"><a href="#Scanner对象" class="headerlink" title="Scanner对象"></a>Scanner对象</h3><h4 id="是实现人机交互的工具类，通过Scanner类来获取用户的输入。"><a href="#是实现人机交互的工具类，通过Scanner类来获取用户的输入。" class="headerlink" title="是实现人机交互的工具类，通过Scanner类来获取用户的输入。"></a>是实现人机交互的工具类，通过Scanner类来获取用户的输入。</h4><h4 id="基本的语法："><a href="#基本的语法：" class="headerlink" title="基本的语法："></a>基本的语法：</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//创建一个扫描器对象，用于接收键盘数据</span></span><br><span class="line">Scanner s = <span class="keyword">new</span> Scanner(System.in)</span><br></pre></td></tr></table></figure>
-
-<h4 id="通过Scanner类的next-与nextLine-方法获取输入的字符串，在读取前我们一般需要使用-hasNext-与hasNextLine-来判断是否还有输入的数据"><a href="#通过Scanner类的next-与nextLine-方法获取输入的字符串，在读取前我们一般需要使用-hasNext-与hasNextLine-来判断是否还有输入的数据" class="headerlink" title="通过Scanner类的next()与nextLine()方法获取输入的字符串，在读取前我们一般需要使用 hasNext()与hasNextLine()来判断是否还有输入的数据"></a>通过Scanner类的next()与nextLine()方法获取输入的字符串，在读取前我们一般需要使用 hasNext()与hasNextLine()来判断是否还有输入的数据</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//判断用户有没有输入字符</span></span><br><span class="line"><span class="keyword">if</span>(Scanner.hasNext())&#123;</span><br><span class="line"><span class="comment">//使用next方式接收</span></span><br><span class="line">String str = Scanner.next();</span><br><span class="line">System.out.println(<span class="string">&quot;输出的内容为&quot;</span>+str)</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//凡是属于IO流的泪如果不关闭会一直占用资源，要养成好习惯用完就关掉</span></span><br><span class="line">scanner.close();</span><br></pre></td></tr></table></figure>
-
-<h5 id="next"><a href="#next" class="headerlink" title="next():"></a>next():</h5><h5 id="1-一定要读取到有效字符后才可以结束输入。"><a href="#1-一定要读取到有效字符后才可以结束输入。" class="headerlink" title="1. 一定要读取到有效字符后才可以结束输入。"></a>1. 一定要读取到有效字符后才可以结束输入。</h5><h5 id="2-对输入的有效字符之前遇到的空白，next-方法会自动将其去掉。"><a href="#2-对输入的有效字符之前遇到的空白，next-方法会自动将其去掉。" class="headerlink" title="2. 对输入的有效字符之前遇到的空白，next()方法会自动将其去掉。"></a>2. 对输入的有效字符之前遇到的空白，next()方法会自动将其去掉。</h5><h5 id="3-只要有输入有小字符后才将其后面输入的空白作为分隔符或者结束符。"><a href="#3-只要有输入有小字符后才将其后面输入的空白作为分隔符或者结束符。" class="headerlink" title="3. 只要有输入有小字符后才将其后面输入的空白作为分隔符或者结束符。"></a>3. 只要有输入有小字符后才将其后面输入的空白作为分隔符或者结束符。</h5><h5 id="4-next-不能得到带有空格的字符串。"><a href="#4-next-不能得到带有空格的字符串。" class="headerlink" title="4. next()不能得到带有空格的字符串。"></a>4. next()不能得到带有空格的字符串。</h5><h4 id="nextLine"><a href="#nextLine" class="headerlink" title="nextLine();"></a>nextLine();</h4><h5 id="1-以回车位结束符，也就是说nextLine-方法返回的是输入回车之前的所有字符。"><a href="#1-以回车位结束符，也就是说nextLine-方法返回的是输入回车之前的所有字符。" class="headerlink" title="1. 以回车位结束符，也就是说nextLine()方法返回的是输入回车之前的所有字符。"></a>1. 以回车位结束符，也就是说nextLine()方法返回的是输入回车之前的所有字符。</h5><h5 id="2-可以获得空白"><a href="#2-可以获得空白" class="headerlink" title="2. 可以获得空白"></a>2. 可以获得空白</h5>]]></content>
-      <categories>
-        <category>Java</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
-        <tag>笔记</tag>
       </tags>
   </entry>
   <entry>
@@ -167,6 +151,22 @@
 </li>
 </ul>
 ]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Scanner对象</title>
+    <url>/blog/posts/e2abe5ec.html</url>
+    <content><![CDATA[<h3 id="Scanner对象"><a href="#Scanner对象" class="headerlink" title="Scanner对象"></a>Scanner对象</h3><h4 id="是实现人机交互的工具类，通过Scanner类来获取用户的输入。"><a href="#是实现人机交互的工具类，通过Scanner类来获取用户的输入。" class="headerlink" title="是实现人机交互的工具类，通过Scanner类来获取用户的输入。"></a>是实现人机交互的工具类，通过Scanner类来获取用户的输入。</h4><h4 id="基本的语法："><a href="#基本的语法：" class="headerlink" title="基本的语法："></a>基本的语法：</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//创建一个扫描器对象，用于接收键盘数据</span></span><br><span class="line">Scanner s = <span class="keyword">new</span> Scanner(System.in)</span><br></pre></td></tr></table></figure>
+
+<h4 id="通过Scanner类的next-与nextLine-方法获取输入的字符串，在读取前我们一般需要使用-hasNext-与hasNextLine-来判断是否还有输入的数据"><a href="#通过Scanner类的next-与nextLine-方法获取输入的字符串，在读取前我们一般需要使用-hasNext-与hasNextLine-来判断是否还有输入的数据" class="headerlink" title="通过Scanner类的next()与nextLine()方法获取输入的字符串，在读取前我们一般需要使用 hasNext()与hasNextLine()来判断是否还有输入的数据"></a>通过Scanner类的next()与nextLine()方法获取输入的字符串，在读取前我们一般需要使用 hasNext()与hasNextLine()来判断是否还有输入的数据</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//判断用户有没有输入字符</span></span><br><span class="line"><span class="keyword">if</span>(Scanner.hasNext())&#123;</span><br><span class="line"><span class="comment">//使用next方式接收</span></span><br><span class="line">String str = Scanner.next();</span><br><span class="line">System.out.println(<span class="string">&quot;输出的内容为&quot;</span>+str)</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//凡是属于IO流的泪如果不关闭会一直占用资源，要养成好习惯用完就关掉</span></span><br><span class="line">scanner.close();</span><br></pre></td></tr></table></figure>
+
+<h5 id="next"><a href="#next" class="headerlink" title="next():"></a>next():</h5><h5 id="1-一定要读取到有效字符后才可以结束输入。"><a href="#1-一定要读取到有效字符后才可以结束输入。" class="headerlink" title="1. 一定要读取到有效字符后才可以结束输入。"></a>1. 一定要读取到有效字符后才可以结束输入。</h5><h5 id="2-对输入的有效字符之前遇到的空白，next-方法会自动将其去掉。"><a href="#2-对输入的有效字符之前遇到的空白，next-方法会自动将其去掉。" class="headerlink" title="2. 对输入的有效字符之前遇到的空白，next()方法会自动将其去掉。"></a>2. 对输入的有效字符之前遇到的空白，next()方法会自动将其去掉。</h5><h5 id="3-只要有输入有小字符后才将其后面输入的空白作为分隔符或者结束符。"><a href="#3-只要有输入有小字符后才将其后面输入的空白作为分隔符或者结束符。" class="headerlink" title="3. 只要有输入有小字符后才将其后面输入的空白作为分隔符或者结束符。"></a>3. 只要有输入有小字符后才将其后面输入的空白作为分隔符或者结束符。</h5><h5 id="4-next-不能得到带有空格的字符串。"><a href="#4-next-不能得到带有空格的字符串。" class="headerlink" title="4. next()不能得到带有空格的字符串。"></a>4. next()不能得到带有空格的字符串。</h5><h4 id="nextLine"><a href="#nextLine" class="headerlink" title="nextLine();"></a>nextLine();</h4><h5 id="1-以回车位结束符，也就是说nextLine-方法返回的是输入回车之前的所有字符。"><a href="#1-以回车位结束符，也就是说nextLine-方法返回的是输入回车之前的所有字符。" class="headerlink" title="1. 以回车位结束符，也就是说nextLine()方法返回的是输入回车之前的所有字符。"></a>1. 以回车位结束符，也就是说nextLine()方法返回的是输入回车之前的所有字符。</h5><h5 id="2-可以获得空白"><a href="#2-可以获得空白" class="headerlink" title="2. 可以获得空白"></a>2. 可以获得空白</h5>]]></content>
       <categories>
         <category>Java</category>
       </categories>
@@ -328,23 +328,6 @@
       </tags>
   </entry>
   <entry>
-    <title>命令行传参</title>
-    <url>/blog/posts/4a246c51.html</url>
-    <content><![CDATA[<h3 id="命令行传参"><a href="#命令行传参" class="headerlink" title="命令行传参"></a>命令行传参</h3><h4 id="有时候你希望运行一个程序时候在传递给它消息，这得靠传递命令行参数给main-函数实现。"><a href="#有时候你希望运行一个程序时候在传递给它消息，这得靠传递命令行参数给main-函数实现。" class="headerlink" title="有时候你希望运行一个程序时候在传递给它消息，这得靠传递命令行参数给main()函数实现。"></a>有时候你希望运行一个程序时候在传递给它消息，这得靠传递命令行参数给main()函数实现。</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ClassDemo01</span> </span>&#123;</span><br><span class="line">    <span class="comment">//主方法 mian方法</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">      <span class="keyword">for</span>(<span class="keyword">int</span> i =<span class="number">0</span>;i&lt;args.length;i++)&#123;</span><br><span class="line">          <span class="comment">//便利主方法内的数组长度</span></span><br><span class="line">          System.out.println(args[i]);</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
-
-<p>命令行下执行</p>
-<p>javac  包名.类名</p>
-<p>java 包名.类名   参数</p>
-]]></content>
-      <categories>
-        <category>Java</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>可变参数</title>
     <url>/blog/posts/6963fb18.html</url>
     <content><![CDATA[<h3 id="可变参数-不定项参数"><a href="#可变参数-不定项参数" class="headerlink" title="可变参数(不定项参数)"></a>可变参数(不定项参数)</h3><ul>
@@ -357,6 +340,23 @@
 <p>实例：</p>
 <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">CLassDemo0</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">            printlnMax(<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">6</span>,<span class="number">5</span>,<span class="number">9</span>,<span class="number">45</span>,<span class="number">465</span>,<span class="number">456</span>,<span class="number">465</span>);</span><br><span class="line">            printlnMax(<span class="number">3333</span>,<span class="number">333</span>,<span class="number">33</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">33</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">33</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">33</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">printlnMax</span><span class="params">(<span class="keyword">double</span> ...nbm)</span></span>&#123;</span><br><span class="line">            <span class="keyword">if</span> (nbm.length == <span class="number">0</span>)&#123;</span><br><span class="line">                System.out.println(<span class="string">&quot;数据出错&quot;</span>);</span><br><span class="line">                <span class="keyword">return</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">double</span> res = nbm[<span class="number">0</span>];</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; nbm.length; i++) &#123;</span><br><span class="line">            <span class="keyword">if</span> (nbm[i]&gt;res)&#123;</span><br><span class="line">                res = nbm[i];</span><br><span class="line"></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        System.out.println(<span class="string">&quot;最大&quot;</span>+res);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
+]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>命令行传参</title>
+    <url>/blog/posts/4a246c51.html</url>
+    <content><![CDATA[<h3 id="命令行传参"><a href="#命令行传参" class="headerlink" title="命令行传参"></a>命令行传参</h3><h4 id="有时候你希望运行一个程序时候在传递给它消息，这得靠传递命令行参数给main-函数实现。"><a href="#有时候你希望运行一个程序时候在传递给它消息，这得靠传递命令行参数给main-函数实现。" class="headerlink" title="有时候你希望运行一个程序时候在传递给它消息，这得靠传递命令行参数给main()函数实现。"></a>有时候你希望运行一个程序时候在传递给它消息，这得靠传递命令行参数给main()函数实现。</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ClassDemo01</span> </span>&#123;</span><br><span class="line">    <span class="comment">//主方法 mian方法</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">      <span class="keyword">for</span>(<span class="keyword">int</span> i =<span class="number">0</span>;i&lt;args.length;i++)&#123;</span><br><span class="line">          <span class="comment">//便利主方法内的数组长度</span></span><br><span class="line">          System.out.println(args[i]);</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
+
+<p>命令行下执行</p>
+<p>javac  包名.类名</p>
+<p>java 包名.类名   参数</p>
 ]]></content>
       <categories>
         <category>Java</category>
@@ -443,6 +443,26 @@
       </tags>
   </entry>
   <entry>
+    <title>方法的重载</title>
+    <url>/blog/posts/70ec998a.html</url>
+    <content><![CDATA[<h3 id="方法的重载"><a href="#方法的重载" class="headerlink" title="方法的重载"></a>方法的重载</h3><h4 id="方法的重载就是在一个类里面，有相同的方法名称-函数名称-，但形参不同的函数。"><a href="#方法的重载就是在一个类里面，有相同的方法名称-函数名称-，但形参不同的函数。" class="headerlink" title="方法的重载就是在一个类里面，有相同的方法名称(函数名称)，但形参不同的函数。"></a>方法的重载就是在一个类里面，有相同的方法名称(函数名称)，但形参不同的函数。</h4><h4 id="方法的重载的规则："><a href="#方法的重载的规则：" class="headerlink" title="方法的重载的规则："></a>方法的重载的规则：</h4><ul>
+<li><h5 id="方法名称必须相同。"><a href="#方法名称必须相同。" class="headerlink" title="方法名称必须相同。"></a>方法名称必须相同。</h5></li>
+<li><h5 id="参数列表必须不同-个数不同，或类型不同、参数排列顺序不同等"><a href="#参数列表必须不同-个数不同，或类型不同、参数排列顺序不同等" class="headerlink" title="参数列表必须不同(个数不同，或类型不同、参数排列顺序不同等)"></a>参数列表必须不同(个数不同，或类型不同、参数排列顺序不同等)</h5></li>
+<li><h5 id="方法的返回值类型可以相同也可以不相同。"><a href="#方法的返回值类型可以相同也可以不相同。" class="headerlink" title="方法的返回值类型可以相同也可以不相同。"></a>方法的返回值类型可以相同也可以不相同。</h5></li>
+<li><h5 id="仅仅返回值类型不同不足以成为方法的重载。"><a href="#仅仅返回值类型不同不足以成为方法的重载。" class="headerlink" title="仅仅返回值类型不同不足以成为方法的重载。"></a>仅仅返回值类型不同不足以成为方法的重载。</h5></li>
+</ul>
+<h4 id="实现理论："><a href="#实现理论：" class="headerlink" title="实现理论："></a>实现理论：</h4><h5 id="方法名称相同时，编译器会根据调用方法的参数个数、参数类型等去逐个匹配，以选择对应的方法，如果匹配失败，则编译器报错。"><a href="#方法名称相同时，编译器会根据调用方法的参数个数、参数类型等去逐个匹配，以选择对应的方法，如果匹配失败，则编译器报错。" class="headerlink" title="方法名称相同时，编译器会根据调用方法的参数个数、参数类型等去逐个匹配，以选择对应的方法，如果匹配失败，则编译器报错。"></a>方法名称相同时，编译器会根据调用方法的参数个数、参数类型等去逐个匹配，以选择对应的方法，如果匹配失败，则编译器报错。</h5><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"> <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> num = add(<span class="number">3</span>,<span class="number">4</span>);</span><br><span class="line">        System.out.println(num);</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">add</span><span class="params">(<span class="keyword">int</span> a,<span class="keyword">int</span> b)</span></span>&#123;</span><br><span class="line">        <span class="keyword">return</span> a+b;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">double</span> <span class="title">add</span><span class="params">(<span class="keyword">double</span> a,<span class="keyword">int</span> b)</span></span>&#123;</span><br><span class="line">        <span class="keyword">return</span> a+b;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">add</span><span class="params">(<span class="keyword">int</span> a,<span class="keyword">int</span> b,<span class="keyword">int</span> c)</span></span>&#123; <span class="keyword">return</span> a+b; &#125;</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>类型的转换</title>
     <url>/blog/posts/6280299f.html</url>
     <content><![CDATA[<h1 id="类型的转换"><a href="#类型的转换" class="headerlink" title="类型的转换"></a>类型的转换</h1><h4 id="由于Java-是强类型语言，所以要进行有些运算的时候，需要用到类型转换"><a href="#由于Java-是强类型语言，所以要进行有些运算的时候，需要用到类型转换" class="headerlink" title="由于Java 是强类型语言，所以要进行有些运算的时候，需要用到类型转换"></a>由于Java 是强类型语言，所以要进行有些运算的时候，需要用到类型转换</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">由低------------------------------到高</span><br><span class="line">byte → short → char → int → long → float → double</span><br></pre></td></tr></table></figure>
@@ -456,26 +476,6 @@
 </ol>
 <h4 id="强制转换"><a href="#强制转换" class="headerlink" title="强制转换"></a>强制转换</h4><p>(类型)变量名     高到低</p>
 <h4 id="自动转换"><a href="#自动转换" class="headerlink" title="自动转换"></a>自动转换</h4><p>由低—–高</p>
-]]></content>
-      <categories>
-        <category>Java</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>方法的重载</title>
-    <url>/blog/posts/70ec998a.html</url>
-    <content><![CDATA[<h3 id="方法的重载"><a href="#方法的重载" class="headerlink" title="方法的重载"></a>方法的重载</h3><h4 id="方法的重载就是在一个类里面，有相同的方法名称-函数名称-，但形参不同的函数。"><a href="#方法的重载就是在一个类里面，有相同的方法名称-函数名称-，但形参不同的函数。" class="headerlink" title="方法的重载就是在一个类里面，有相同的方法名称(函数名称)，但形参不同的函数。"></a>方法的重载就是在一个类里面，有相同的方法名称(函数名称)，但形参不同的函数。</h4><h4 id="方法的重载的规则："><a href="#方法的重载的规则：" class="headerlink" title="方法的重载的规则："></a>方法的重载的规则：</h4><ul>
-<li><h5 id="方法名称必须相同。"><a href="#方法名称必须相同。" class="headerlink" title="方法名称必须相同。"></a>方法名称必须相同。</h5></li>
-<li><h5 id="参数列表必须不同-个数不同，或类型不同、参数排列顺序不同等"><a href="#参数列表必须不同-个数不同，或类型不同、参数排列顺序不同等" class="headerlink" title="参数列表必须不同(个数不同，或类型不同、参数排列顺序不同等)"></a>参数列表必须不同(个数不同，或类型不同、参数排列顺序不同等)</h5></li>
-<li><h5 id="方法的返回值类型可以相同也可以不相同。"><a href="#方法的返回值类型可以相同也可以不相同。" class="headerlink" title="方法的返回值类型可以相同也可以不相同。"></a>方法的返回值类型可以相同也可以不相同。</h5></li>
-<li><h5 id="仅仅返回值类型不同不足以成为方法的重载。"><a href="#仅仅返回值类型不同不足以成为方法的重载。" class="headerlink" title="仅仅返回值类型不同不足以成为方法的重载。"></a>仅仅返回值类型不同不足以成为方法的重载。</h5></li>
-</ul>
-<h4 id="实现理论："><a href="#实现理论：" class="headerlink" title="实现理论："></a>实现理论：</h4><h5 id="方法名称相同时，编译器会根据调用方法的参数个数、参数类型等去逐个匹配，以选择对应的方法，如果匹配失败，则编译器报错。"><a href="#方法名称相同时，编译器会根据调用方法的参数个数、参数类型等去逐个匹配，以选择对应的方法，如果匹配失败，则编译器报错。" class="headerlink" title="方法名称相同时，编译器会根据调用方法的参数个数、参数类型等去逐个匹配，以选择对应的方法，如果匹配失败，则编译器报错。"></a>方法名称相同时，编译器会根据调用方法的参数个数、参数类型等去逐个匹配，以选择对应的方法，如果匹配失败，则编译器报错。</h5><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"> <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> num = add(<span class="number">3</span>,<span class="number">4</span>);</span><br><span class="line">        System.out.println(num);</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">add</span><span class="params">(<span class="keyword">int</span> a,<span class="keyword">int</span> b)</span></span>&#123;</span><br><span class="line">        <span class="keyword">return</span> a+b;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">double</span> <span class="title">add</span><span class="params">(<span class="keyword">double</span> a,<span class="keyword">int</span> b)</span></span>&#123;</span><br><span class="line">        <span class="keyword">return</span> a+b;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">add</span><span class="params">(<span class="keyword">int</span> a,<span class="keyword">int</span> b,<span class="keyword">int</span> c)</span></span>&#123; <span class="keyword">return</span> a+b; &#125;</span><br></pre></td></tr></table></figure>
-
 ]]></content>
       <categories>
         <category>Java</category>
